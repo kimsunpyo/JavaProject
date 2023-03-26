@@ -1,8 +1,8 @@
-package loop;
+package review;
 
 import java.util.Scanner;
 
-public class Quiz1 {
+public class Review {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
@@ -22,20 +22,20 @@ public class Quiz1 {
 		// 비밀번호 1234
 		
 		
-//		int pwd = 1234;
-//		int user_input = 0;
-//		
-//		for(int j=0; j<5; ++j) {
-//			System.out.print("비밀번호를 입력하세요>>");
-//			user_input = sc.nextInt();
-//			if(user_input == pwd) {
-//				System.out.println("맞았습니다!");
-//				break;
-//			}
-//			if(j==4) {
-//				System.out.println("접속불가");
-//			}
-//		}
+		int pwd = 1234;
+		int user_input = 0;
+		
+		for(int j=0; j<5; ++j) {
+			System.out.print("비밀번호를 입력하세요>>");
+			user_input = sc.nextInt();
+			if(user_input == pwd) {
+				System.out.println("맞았습니다!");
+				break;
+			}
+			if(j==4) {
+				System.out.println("접속불가");
+			}
+		}
 		
 		// 3. 시험합격 점수는 국어, 영어, 수학이 각각 40점 이상이고 총점수가 150점 이상이면 합격
 		// 40점 이하의 점수가 있으면 과락, 총점이 미달되면 총점미달
@@ -89,6 +89,4 @@ public class Quiz1 {
 		
 	}
 }
-		
-		
 		
